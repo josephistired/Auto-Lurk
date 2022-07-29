@@ -10,7 +10,7 @@ A very simple bot that auto lurks for you, and gains watchtime on your account
 
     ** Please download the correct version **
 
-  [For Windows, click here](https://github.com/josephistired/Twitch-Auto-Lurk-Bot/releases/tag/Windows-Version)
+  [For Windows, click here](https://github.com/josephistired/Twitch-Auto-Lurk-Bot/releases/tag/Windows-Version)!
 
   [For Raspberrypi, click here](https://github.com/josephistired/Twitch-Auto-Lurk-Bot/releases/tag/RaspberryPi-Version)!
   
