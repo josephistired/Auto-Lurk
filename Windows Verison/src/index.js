@@ -9,7 +9,7 @@ const options = ({
 		username: BOT_USERNAME,
 		password: OAUTH_TOKEN
 	},
-	channels: [ ' ' ] // ADD CHANNELS HERE YOU WANT TO LURK... with ' channel name ', ' channel name ' and so on! 
+	channels: [ '' ] // ADD CHANNELS HERE YOU WANT TO LURK... with 'channel name', 'channel name' and so on! NO SPACES BETWEEN '' AND CHANNEL NAME! CORRECT - 'TEST'! WRONG ' TEST ' !
 });
 
 let client = new tmi.client(options);
