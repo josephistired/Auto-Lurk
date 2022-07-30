@@ -39,4 +39,3 @@ client.on('message', async (channel, context, message) => {
 	  message
 	});
   });
-
