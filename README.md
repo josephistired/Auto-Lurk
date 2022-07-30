@@ -1,6 +1,6 @@
 # Twitch-Auto-Lurk-Bot
 
-A very simple bot that auto lurks for you, and gains watchtime on your account.
+A straightforward bot that auto lurks for you, and gains watch time on your account.
 
 # Table Of Contents - Windows Version
 * [Requirements - Windows Version](#requirements-windows-version)
