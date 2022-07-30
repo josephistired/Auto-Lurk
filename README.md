@@ -38,7 +38,7 @@ A straightforward bot that auto lurks for you, and gains watch time on your acco
   5. Open the index.js file in the src folder ( windows folder... ) (**Use Notepad or any coding editing software**)
   6. Paste the channels you wanted to auto-lurk like [this](https://ibb.co/vdBn4NX) into the channels field!
   7. Save the file... CTRL+S
-  8. Open the bot.bat in the src folder ( windows folder... )
+  8. Open the bot.bat file in the src folder ( windows folder... )
   9. and enjoy it working ( should say - Bot Connected on "your account name" account! - Lurking: Enabled )
   10. also, to make sure it's fully working go into one of the channels you specified, and type !1 
   
