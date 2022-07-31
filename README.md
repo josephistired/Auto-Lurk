@@ -48,12 +48,11 @@ A straightforward bot that auto lurks for you, and gains watch time on your acco
   
   Here is how to run the bot on startup, and 24/7 (terminal window will be open 24/7)
   
-  1. Open the bot.bat file in the src folder ( windows folder... )
-  2. Delete the "& ::" and place your username of your pc in the YOUR USERNAME place like [this](https://ibb.co/Qp0b3K7)
-  3. Save the file... CTRL+S
-  4. Press the Windows logo key + R, type shell:startup, then select OK. This opens the Startup folder.
-  5. Copy and paste the bot.bat in the src ( windows folder... ) to the startup folder.
-  6. Congrats man
+  1. Open the bot.bat file in file explorer ( windows folder... )
+  2. Right click, press 'create shortcut'
+  3. Press the Windows logo key + R, type shell:startup, then select OK. This opens the Startup folder.
+  4. Copy and paste the bot.bat shortcut you just made to the startup folder.
+  5. Congrats man
   
 ## Requirements Raspberrypi Version
 
