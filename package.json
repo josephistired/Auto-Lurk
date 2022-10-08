@@ -1,0 +1,22 @@
+{
+  "name": "twitch-auto-lurk-bot",
+  "version": "1.0.0",
+  "description": "A straightforward bot that auto lurks for you, and gains watch time on your account.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josephistired/Twitch-Auto-Lurk-Bot.git"
+  },
+  "author": "Joseph",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josephistired/Twitch-Auto-Lurk-Bot/issues"
+  },
+  "homepage": "https://github.com/josephistired/Twitch-Auto-Lurk-Bot#readme",
+  "dependencies": {
+    "tmi.js": "^1.8.5"
+  }
+}

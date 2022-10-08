@@ -1,15 +1,15 @@
 const tmi = require("tmi.js");
-const { OAUTH_TOKEN, BOT_USERNAME } = require("./config.json");
+const { OAUTH_TOKEN, USERNAME } = require("./config.json");
 const options = {
   connection: {
     reconnect: true,
     secure: true,
   },
   identity: {
-    username: BOT_USERNAME,
+    username: USERNAME,
     password: OAUTH_TOKEN,
   },
-  channels: [""], // ADD CHANNELS HERE YOU WANT TO LURK... with 'channel name', 'channel name' and so on! NO SPACES BETWEEN '' AND CHANNEL NAME! CORRECT - 'TEST'! WRONG ' TEST ' !
+  channels: [""],
 };
 
 let client = new tmi.client(options);
@@ -20,7 +20,7 @@ function sleep(time) {
 }
 
 client.on("connected", (connection) => {
-  console.log(`Bot Connected on ${BOT_USERNAME} account! - Lurking: Enabled`);
+  console.log(`Bot Connected on ${USERNAME} account! - Lurking: Enabled`);
 });
 
 client.on("message", (channel, tags, message, self, user) => {
@@ -28,7 +28,7 @@ client.on("message", (channel, tags, message, self, user) => {
     sleep(1000).then(() => {
       client.say(
         channel,
-        `Bot Connected on ${BOT_USERNAME} account! - Lurking: Enabled`
+        `Bot Connected on ${USERNAME} account! - Lurking: Enabled`
       );
     });
   }
