@@ -1,6 +1,6 @@
 # Twitch-Auto-Lurk-Bot
 
-A straightforward bot that auto lurks for you, and gains watch time on your account.
+A straightforward bot that auto lurks for you, and gains watch time on your account based on [tmi.js](https://tmijs.com)!
 
 ## Prerequisites
 
