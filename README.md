@@ -4,7 +4,7 @@ A straightforward bot that auto lurks for you, and gains watch time on your acco
 
 ## Prerequisites
 
-1. Node.js 16.17.1 LTS or newer.**[Download](https://nodejs.org/en/)**
+1. Node.js 16.17.1 LTS or newer. **[Download](https://nodejs.org/en/)**
 2. tmi.js **[Download](https://tmijs.com)** npm i tmi.js
 3. Twitch OAuth Token **[Get](https://twitchapps.com/tmi/)**
 
