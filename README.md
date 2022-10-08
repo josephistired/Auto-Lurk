@@ -23,7 +23,7 @@ _Edit the config.json file in the Configuration folder._
 ```json
 {
   "OAUTH_TOKEN": "Place Your OAuth Token Here!",
-  "USERNAME": "Place Your Twitch Username Here!""
+  "USERNAME": "Place Your Twitch Username Here!"
 }
 ```
 
