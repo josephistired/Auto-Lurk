@@ -33,6 +33,12 @@ _Edit the index.js file._
   channels: [ "Here", "Here", "Here" ],
 ```
 
+## 🖥️ Starting The Bot
+
+After editing the bot.py file, simply run the bot.bat program.
+
+_If running this program on a raspberrypi follow all the steps above but to run the bot run the command **nohup python bot.py**!_
+
 ## Run on Startup
 
 1. Open the bot.bat file in file explorer
