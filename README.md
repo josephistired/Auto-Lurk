@@ -37,7 +37,7 @@ _Edit the index.js file._
 
 After editing the index.js file, simply run the bot.bat program.
 
-_If running this program on a raspberrypi follow all the steps above but to run the bot run the command **nohup python bot.py**!_
+_If running this program on a raspberrypi follow all the steps above but to run the bot run the command **nohup node index.js**!_
 
 ## Run on Startup
 

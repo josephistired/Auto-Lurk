@@ -1,5 +1,5 @@
 const tmi = require("tmi.js");
-const { OAUTH_TOKEN, USERNAME } = require("./config.json");
+const { OAUTH_TOKEN, USERNAME } = require("./Configuration/config.json");
 const options = {
   connection: {
     reconnect: true,
@@ -9,7 +9,11 @@ const options = {
     username: USERNAME,
     password: OAUTH_TOKEN,
   },
-  channels: [""],
+  channels: [
+    "PLACE CHANNEL HERE", // NO SPACES BETWEEN THE LETTERS AND THE QUOTE
+    "PLACE CHANNEL HERE", // NO SPACES BETWEEN THE LETTERS AND THE QUOTE
+    "PLACE CHANNEL HERE", // NO SPACES BETWEEN THE LETTERS AND THE QUOTE
+  ],
 };
 
 let client = new tmi.client(options);
