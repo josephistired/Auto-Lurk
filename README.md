@@ -49,3 +49,7 @@ Auto Lurk is best run on a device that is on 24/7, like a Raspberry Pi. Running 
 2. Right click, press 'create shortcut'
 3. Press the Windows logo key + R, type shell:startup, then select OK. This opens the Startup folder.
 4. Copy and paste the bot.bat shortcut you just made to the startup folder.
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
