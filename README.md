@@ -4,28 +4,27 @@ Twitch has deprecated /-chat commands through the IRC connection and they will b
 When v2 is released, I will look into adding new features to the bot.
 
 
-# Twitch-Auto-Lurk-Bot
+# 🤖 Auto-Lurk
+Auto Lurk is a bot that utilizes tmi.js to interact with Twitch's API, allowing it to automatically lurk in channels of your choosing. This bot helps you gain watch time and improve your presence within the Twitch community with ease. Freeing up your time to focus on other important things. 
 
-A straightforward bot that auto lurks for you, and gains watch time on your account based on [tmi.js](https://tmijs.com)!
+## 🔧 Prerequisites
+To use Auto Lurk, you need the latest Node.js LTS version and a Twitch OAuth Token. Ensure both are ready before using the bot.
 
-## Prerequisites
+* [Node.js LTS](https://nodejs.org/en/)
+* [Twitch OAuth Token](https://twitchapps.com/tmi/)
 
-1. Node.js 16.17.1 LTS or newer. **[Download](https://nodejs.org/en/)**
-2. tmi.js **[Download](https://tmijs.com)** npm i tmi.js
-3. Twitch OAuth Token **[Get](https://twitchapps.com/tmi/)**
-
-## 🖥️ First Things To Do
-
+# 💫 Getting Started
+Now that you have all the required Prerequisites. You can move on to the next steps. By running the commands below.
 ```
-git clone https://github.com/josephistired/Twitch-Auto-Lurk-Bot.git
-cd Twitch-Auto-Lurk-Bot
+git clone https://github.com/josephistired/Auto-Lurk.git
+cd Auto-Lurk
 npm install
 ```
 
-## ✅ Configuration
+## ⚙️ Configuration
+Once you have cloned the bot to your local machine and have all the necessary prerequisites in place, you must now edit two files for the bot to properly  work.
 
-_Edit the config.json file in the Configuration folder._
-
+[config.json](https://github.com/josephistired/Auto-Lurk/blob/main/Configuration/config.json)
 ```json
 {
   "OAUTH_TOKEN": "Place Your OAuth Token Here!",
@@ -33,25 +32,20 @@ _Edit the config.json file in the Configuration folder._
 }
 ```
 
-_Edit the index.js file._
+[index.js](https://github.com/josephistired/Auto-Lurk/blob/main/index.js)
 
 ```js
-  channels: [ "Here", "Here", "Here" ],
+  channels: [ "Here", "Here", "Here" ]
 ```
 
-## 🖥️ Starting The Bot
+## 🎊 Starting The Bot
+If you have successfully completed all the previous steps, the bot should now be ready to run. If you are on Windows, you can run the bot by opening the bot.bat file. If you are a raspberrpi, simply run the command **nohup node index.js**. Once the bot is running, you can enjoy its features! If you encounter any issues, you can create a pull request for help.
 
-After editing the index.js file, simply run the bot.bat program.
+## 🕑 Run on Startup
+Auto Lurk is best run on a device that is on 24/7, like a Raspberry Pi. Running Auto Lurk on a device that is always on will ensure optimal results. If using Windows, you can set the bot to start on startup by following the steps below. 
 
-_If running this program on a raspberrypi follow all the steps above but to run the bot run the command **nohup node index.js**!_
-
-## Run on Startup
 
 1. Open the bot.bat file in file explorer
 2. Right click, press 'create shortcut'
 3. Press the Windows logo key + R, type shell:startup, then select OK. This opens the Startup folder.
 4. Copy and paste the bot.bat shortcut you just made to the startup folder.
-
-# License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
