@@ -7,7 +7,7 @@ When v2 is released, I will look into adding new features to the bot.
 # 🤖 Auto-Lurk
 Auto Lurk is a bot that utilizes tmi.js to interact with Twitch's API, allowing it to automatically lurk in channels of your choosing. This bot helps you gain watch time and improve your presence within the Twitch community with ease. Freeing up your time to focus on other important things. 
 
-## 🔧 Prerequisites
+# 🔧 Prerequisites
 To use Auto Lurk, you need the latest Node.js LTS version and a Twitch OAuth Token. Ensure both are ready before using the bot.
 
 * [Node.js LTS](https://nodejs.org/en/)
@@ -21,7 +21,7 @@ cd Auto-Lurk
 npm install
 ```
 
-## ⚙️ Configuration
+# ⚙️ Configuration
 Once you have cloned the bot to your local machine and have all the necessary prerequisites in place, you must now edit two files for the bot to properly  work.
 
 [config.json](https://github.com/josephistired/Auto-Lurk/blob/main/Configuration/config.json)
