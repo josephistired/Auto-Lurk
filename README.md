@@ -41,7 +41,7 @@ Once you have cloned the bot to your local machine and have all the necessary pr
 ## 🎊 Starting The Bot
 If you have successfully completed all the previous steps, the bot should now be ready to run. If you are on Windows, you can run the bot by opening the bot.bat file. If you are a raspberrpi, simply run the command **nohup node index.js**. Once the bot is running, you can enjoy its features! If you encounter any issues, you can create a pull request for help.
 
-## 🕑 Run on Startup
+# 🕑 Run on Startup
 Auto Lurk is best run on a device that is on 24/7, like a Raspberry Pi. Running Auto Lurk on a device that is always on will ensure optimal results. If using Windows, you can set the bot to start on startup by following the steps below. 
 
 
