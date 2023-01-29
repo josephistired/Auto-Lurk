@@ -1,3 +1,9 @@
+# ⛔ Update
+Twitch has deprecated /-chat commands through the IRC connection and they will be removed February 18, 2023. According to tmi.js website it removes a lot of chat client functionality which affects tmi.js. They state, "To resolve this and keep the nice interface of tmi.js, it will be rewritten completely to support making API calls directly. Version 1.x of tmi.js will continue to function as it normally does until and a new v2 will be available in the near future."
+
+When v2 is released, I will look into adding new features to the bot.
+
+
 # Twitch-Auto-Lurk-Bot
 
 A straightforward bot that auto lurks for you, and gains watch time on your account based on [tmi.js](https://tmijs.com)!
